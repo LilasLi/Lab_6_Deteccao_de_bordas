@@ -1,0 +1,1 @@
+# Lab_6_Deteccao_de_bordas
