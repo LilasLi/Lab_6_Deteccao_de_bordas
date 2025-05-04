@@ -1,0 +1,193 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Seven Segment" CircId="Seven Segment-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,-164" rotation="0" hflip="1" vflip="1" label="Seven Segment-1" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" NumDisplays="1 _7seg" Color="Yellow" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="1 Ω" />
+
+<item itemtype="Subcircuit" CircId="Uno-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-608,-196" rotation="0" hflip="1" vflip="1" label="Uno-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="2_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="2_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="dist/default/production/avr_deteccao_de_bordas.X.production.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Tunnel" CircId="Tunnel-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-668,-180" rotation="0" hflip="1" vflip="1" label="seg_a" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_a" />
+
+<item itemtype="Tunnel" CircId="Tunnel-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-668,-172" rotation="0" hflip="1" vflip="1" label="seg_b" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_b" />
+
+<item itemtype="Tunnel" CircId="Tunnel-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-668,-164" rotation="0" hflip="1" vflip="1" label="seg_c" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_c" />
+
+<item itemtype="Tunnel" CircId="Tunnel-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-668,-156" rotation="0" hflip="1" vflip="1" label="seg_d" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_d" />
+
+<item itemtype="Tunnel" CircId="Tunnel-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-668,-148" rotation="0" hflip="1" vflip="1" label="seg_e" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_e" />
+
+<item itemtype="Tunnel" CircId="Tunnel-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-668,-140" rotation="0" hflip="1" vflip="1" label="seg_f" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_f" />
+
+<item itemtype="Tunnel" CircId="Tunnel-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-668,-132" rotation="0" hflip="1" vflip="1" label="seg_g" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_g" />
+
+<item itemtype="Tunnel" CircId="Tunnel-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-668,-124" rotation="0" hflip="1" vflip="1" label="seg_p" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_p" />
+
+<item itemtype="Tunnel" CircId="Tunnel-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-188" rotation="0" hflip="1" vflip="1" label="Tunnel-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_a" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-12" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-636,-156" rotation="0" hflip="1" vflip="1" label="ResistorDip-12" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="150 Ω" Size="8 _Resist." />
+
+<item itemtype="Tunnel" CircId="Tunnel-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-180" rotation="0" hflip="1" vflip="1" label="Tunnel-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_b" />
+
+<item itemtype="Tunnel" CircId="Tunnel-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-172" rotation="0" hflip="1" vflip="1" label="Tunnel-14" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_c" />
+
+<item itemtype="Tunnel" CircId="Tunnel-15" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-164" rotation="0" hflip="1" vflip="1" label="Tunnel-15" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_d" />
+
+<item itemtype="Tunnel" CircId="Tunnel-16" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-156" rotation="0" hflip="1" vflip="1" label="Tunnel-16" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_e" />
+
+<item itemtype="Tunnel" CircId="Tunnel-17" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-148" rotation="0" hflip="1" vflip="1" label="Tunnel-17" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_f" />
+
+<item itemtype="Tunnel" CircId="Tunnel-18" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-140" rotation="0" hflip="1" vflip="1" label="Tunnel-18" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_g" />
+
+<item itemtype="Tunnel" CircId="Tunnel-19" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-132" rotation="0" hflip="1" vflip="1" label="Tunnel-19" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_p" />
+
+<item itemtype="Ground" CircId="Ground-20" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-60" rotation="0" hflip="1" vflip="1" label="Ground-20" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="BJT" CircId="BJT-22" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,-104" rotation="0" hflip="1" vflip="1" label="BJT-22" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="Resistor" CircId="Resistor-23" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-348,-80" rotation="90" hflip="1" vflip="1" label="Resistor-23" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Tunnel" CircId="Tunnel-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-620,-108" rotation="0" hflip="1" vflip="1" label="Tunnel-24" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="uni" />
+
+<item itemtype="Tunnel" CircId="Tunnel-25" mainComp="false" Show_id="false" Show_Val="false" Pos="-620,-100" rotation="0" hflip="1" vflip="1" label="Tunnel-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="dez" />
+
+<item itemtype="Tunnel" CircId="Tunnel-26" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,-60" rotation="0" hflip="1" vflip="1" label="Tunnel-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="dez" />
+
+<item itemtype="Tunnel" CircId="Tunnel-27" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-164" rotation="0" hflip="1" vflip="1" label="Tunnel-27" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_d" />
+
+<item itemtype="Tunnel" CircId="Tunnel-28" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-156" rotation="0" hflip="1" vflip="1" label="Tunnel-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_e" />
+
+<item itemtype="Tunnel" CircId="Tunnel-29" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-140" rotation="0" hflip="1" vflip="1" label="Tunnel-29" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_g" />
+
+<item itemtype="Tunnel" CircId="Tunnel-30" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-132" rotation="0" hflip="1" vflip="1" label="Tunnel-30" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_p" />
+
+<item itemtype="BJT" CircId="BJT-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-220,-104" rotation="0" hflip="1" vflip="1" label="BJT-31" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-32" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-172" rotation="0" hflip="1" vflip="1" label="Tunnel-32" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_c" />
+
+<item itemtype="Tunnel" CircId="Tunnel-33" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-60" rotation="0" hflip="1" vflip="1" label="Tunnel-33" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="uni" />
+
+<item itemtype="Tunnel" CircId="Tunnel-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-188" rotation="0" hflip="1" vflip="1" label="Tunnel-34" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_a" />
+
+<item itemtype="Tunnel" CircId="Tunnel-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-180" rotation="0" hflip="1" vflip="1" label="Tunnel-35" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_b" />
+
+<item itemtype="Ground" CircId="Ground-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-212,-60" rotation="0" hflip="1" vflip="1" label="Ground-36" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-148" rotation="0" hflip="1" vflip="1" label="Tunnel-37" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="seg_f" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-220,-164" rotation="0" hflip="1" vflip="1" label="Seven Segment-38" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" NumDisplays="1 _7seg" Color="Yellow" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="1 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-39" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-244,-80" rotation="90" hflip="1" vflip="1" label="Resistor-39" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Push" CircId="Push-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,-24" rotation="0" hflip="1" vflip="1" label="Push-40" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Ground" CircId="Ground-41" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-4" rotation="0" hflip="1" vflip="1" label="Ground-41" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-42" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-24" rotation="0" hflip="1" vflip="1" label="b1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="b1" />
+
+<item itemtype="Ground" CircId="Ground-43" mainComp="false" Show_id="false" Show_Val="false" Pos="-212,-4" rotation="0" hflip="1" vflip="1" label="Ground-43" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Push" CircId="Push-44" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,-24" rotation="0" hflip="1" vflip="1" label="Push-44" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Tunnel" CircId="Tunnel-45" mainComp="false" Show_id="false" Show_Val="false" Pos="-260,-24" rotation="0" hflip="1" vflip="1" label="Tunnel-45" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="b0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-46" mainComp="false" Show_id="false" Show_Val="false" Pos="-624,-76" rotation="0" hflip="1" vflip="1" label="Tunnel-46" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="b1" />
+
+<item itemtype="Tunnel" CircId="Tunnel-47" mainComp="false" Show_id="false" Show_Val="false" Pos="-624,-68" rotation="0" hflip="1" vflip="1" label="Tunnel-47" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="b0" />
+
+<item itemtype="Connector" uid="connector-48" startpinid="Tunnel-3-pin" endpinid="ResistorDip-12-resistor0-ePin0" pointList="-668,-180,-652,-180" />
+
+<item itemtype="Connector" uid="connector-49" startpinid="Tunnel-4-pin" endpinid="ResistorDip-12-resistor1-ePin2" pointList="-668,-172,-652,-172" />
+
+<item itemtype="Connector" uid="connector-50" startpinid="Tunnel-5-pin" endpinid="ResistorDip-12-resistor2-ePin4" pointList="-668,-164,-652,-164" />
+
+<item itemtype="Connector" uid="connector-51" startpinid="Tunnel-6-pin" endpinid="ResistorDip-12-resistor3-ePin6" pointList="-668,-156,-652,-156" />
+
+<item itemtype="Connector" uid="connector-52" startpinid="Tunnel-7-pin" endpinid="ResistorDip-12-resistor4-ePin8" pointList="-668,-148,-652,-148" />
+
+<item itemtype="Connector" uid="connector-53" startpinid="Tunnel-8-pin" endpinid="ResistorDip-12-resistor5-ePin10" pointList="-668,-140,-652,-140" />
+
+<item itemtype="Connector" uid="connector-54" startpinid="Tunnel-9-pin" endpinid="ResistorDip-12-resistor6-ePin12" pointList="-668,-132,-652,-132" />
+
+<item itemtype="Connector" uid="connector-55" startpinid="Tunnel-10-pin" endpinid="ResistorDip-12-resistor7-ePin14" pointList="-668,-124,-652,-124" />
+
+<item itemtype="Connector" uid="connector-56" startpinid="ResistorDip-12-resistor0-ePin1" endpinid="Uno-2-0" pointList="-620,-180,-600,-180" />
+
+<item itemtype="Connector" uid="connector-57" startpinid="ResistorDip-12-resistor1-ePin3" endpinid="Uno-2-1" pointList="-620,-172,-600,-172" />
+
+<item itemtype="Connector" uid="connector-58" startpinid="ResistorDip-12-resistor2-ePin5" endpinid="Uno-2-2" pointList="-620,-164,-600,-164" />
+
+<item itemtype="Connector" uid="connector-59" startpinid="ResistorDip-12-resistor3-ePin7" endpinid="Uno-2-3" pointList="-620,-156,-600,-156" />
+
+<item itemtype="Connector" uid="connector-60" startpinid="ResistorDip-12-resistor4-ePin9" endpinid="Uno-2-4" pointList="-620,-148,-600,-148" />
+
+<item itemtype="Connector" uid="connector-61" startpinid="ResistorDip-12-resistor5-ePin11" endpinid="Uno-2-5" pointList="-620,-140,-600,-140" />
+
+<item itemtype="Connector" uid="connector-62" startpinid="ResistorDip-12-resistor6-ePin13" endpinid="Uno-2-6" pointList="-620,-132,-600,-132" />
+
+<item itemtype="Connector" uid="connector-63" startpinid="ResistorDip-12-resistor7-ePin15" endpinid="Uno-2-7" pointList="-620,-124,-600,-124" />
+
+<item itemtype="Connector" uid="connector-64" startpinid="Tunnel-11-pin" endpinid="Seven Segment-1-pin_a" pointList="-356,-188,-348,-188" />
+
+<item itemtype="Connector" uid="connector-65" startpinid="Tunnel-13-pin" endpinid="Seven Segment-1-pin_b" pointList="-356,-180,-348,-180" />
+
+<item itemtype="Connector" uid="connector-66" startpinid="Tunnel-14-pin" endpinid="Seven Segment-1-pin_c" pointList="-356,-172,-348,-172" />
+
+<item itemtype="Connector" uid="connector-67" startpinid="Tunnel-15-pin" endpinid="Seven Segment-1-pin_d" pointList="-356,-164,-348,-164" />
+
+<item itemtype="Connector" uid="connector-68" startpinid="Tunnel-16-pin" endpinid="Seven Segment-1-pin_e" pointList="-356,-156,-348,-156" />
+
+<item itemtype="Connector" uid="connector-69" startpinid="Tunnel-17-pin" endpinid="Seven Segment-1-pin_f" pointList="-356,-148,-348,-148" />
+
+<item itemtype="Connector" uid="connector-70" startpinid="Tunnel-18-pin" endpinid="Seven Segment-1-pin_g" pointList="-356,-140,-348,-140" />
+
+<item itemtype="Connector" uid="connector-71" startpinid="Tunnel-19-pin" endpinid="Seven Segment-1-pin_dot" pointList="-356,-132,-332,-132" />
+
+<item itemtype="Connector" uid="connector-72" startpinid="Tunnel-24-pin" endpinid="Uno-2-8" pointList="-620,-108,-600,-108" />
+
+<item itemtype="Connector" uid="connector-73" startpinid="Tunnel-25-pin" endpinid="Uno-2-9" pointList="-620,-100,-600,-100" />
+
+<item itemtype="Connector" uid="connector-74" startpinid="Seven Segment-1-pin_commona" endpinid="BJT-22-collector" pointList="-316,-132,-316,-120" />
+
+<item itemtype="Connector" uid="connector-75" startpinid="BJT-22-emiter" endpinid="Ground-20-Gnd" pointList="-316,-88,-316,-76" />
+
+<item itemtype="Connector" uid="connector-76" startpinid="Resistor-23-lPin" endpinid="BJT-22-base" pointList="-348,-96,-348,-104,-340,-104" />
+
+<item itemtype="Connector" uid="connector-77" startpinid="Tunnel-26-pin" endpinid="Resistor-23-rPin" pointList="-360,-60,-348,-60,-348,-64" />
+
+<item itemtype="Connector" uid="connector-78" startpinid="Tunnel-27-pin" endpinid="Seven Segment-38-pin_d" pointList="-252,-164,-244,-164" />
+
+<item itemtype="Connector" uid="connector-79" startpinid="Seven Segment-38-pin_commona" endpinid="BJT-31-collector" pointList="-212,-132,-212,-120" />
+
+<item itemtype="Connector" uid="connector-80" startpinid="Tunnel-30-pin" endpinid="Seven Segment-38-pin_dot" pointList="-252,-132,-228,-132" />
+
+<item itemtype="Connector" uid="connector-81" startpinid="BJT-31-emiter" endpinid="Ground-36-Gnd" pointList="-212,-88,-212,-76" />
+
+<item itemtype="Connector" uid="connector-82" startpinid="Tunnel-28-pin" endpinid="Seven Segment-38-pin_e" pointList="-252,-156,-244,-156" />
+
+<item itemtype="Connector" uid="connector-83" startpinid="Tunnel-35-pin" endpinid="Seven Segment-38-pin_b" pointList="-252,-180,-244,-180" />
+
+<item itemtype="Connector" uid="connector-84" startpinid="Tunnel-29-pin" endpinid="Seven Segment-38-pin_g" pointList="-252,-140,-244,-140" />
+
+<item itemtype="Connector" uid="connector-85" startpinid="Tunnel-33-pin" endpinid="Resistor-39-rPin" pointList="-256,-60,-244,-60,-244,-64" />
+
+<item itemtype="Connector" uid="connector-86" startpinid="Tunnel-37-pin" endpinid="Seven Segment-38-pin_f" pointList="-252,-148,-244,-148" />
+
+<item itemtype="Connector" uid="connector-87" startpinid="Tunnel-32-pin" endpinid="Seven Segment-38-pin_c" pointList="-252,-172,-244,-172" />
+
+<item itemtype="Connector" uid="connector-88" startpinid="Resistor-39-lPin" endpinid="BJT-31-base" pointList="-244,-96,-244,-104,-236,-104" />
+
+<item itemtype="Connector" uid="connector-89" startpinid="Tunnel-34-pin" endpinid="Seven Segment-38-pin_a" pointList="-252,-188,-244,-188" />
+
+<item itemtype="Connector" uid="connector-90" startpinid="Tunnel-46-pin" endpinid="Uno-2-12" pointList="-624,-76,-600,-76" />
+
+<item itemtype="Connector" uid="connector-91" startpinid="Tunnel-47-pin" endpinid="Uno-2-13" pointList="-624,-68,-600,-68" />
+
+<item itemtype="Connector" uid="connector-92" startpinid="Tunnel-42-pin" endpinid="Push-40-pinP0" pointList="-364,-24,-356,-24" />
+
+<item itemtype="Connector" uid="connector-93" startpinid="Push-40-switch0pinN" endpinid="Ground-41-Gnd" pointList="-324,-24,-316,-24,-316,-20" />
+
+<item itemtype="Connector" uid="connector-94" startpinid="Tunnel-45-pin" endpinid="Push-44-pinP0" pointList="-260,-24,-252,-24" />
+
+<item itemtype="Connector" uid="connector-95" startpinid="Push-44-switch0pinN" endpinid="Ground-43-Gnd" pointList="-220,-24,-212,-24,-212,-20" />
+
+</circuit>
